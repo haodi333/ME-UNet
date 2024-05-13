@@ -1,8 +1,8 @@
-# ME-UNet: an Memory Efficient Model for 3D Coronary Artery
+# ME-UNet: an Memory Efficient Model for 3D Coronary Artery Segmentation
 
 ## Introduction
 
-This is the source code for the paper "ME-UNet: an Memory Efficient Model for 3D Coronary Artery". 
+This is the source code for the paper "ME-UNet: an Memory Efficient Model for 3D Coronary Artery Segmentation". 
 
 ## Usage
 
