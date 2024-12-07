@@ -6,7 +6,7 @@ This is the source code for the paper "ME-UNet: a Memory Efficient Model for 3D 
 
 ## Usage
 
-1. Running Preprocess.py to generate the preprocessed data. 
+1. Run Preprocess.py to generate the preprocessed data. 
 
    ```
    Python Preprocess.py --data_folder './data', --resolution 0 --interpolation 0 --target_folder ./clean_data
@@ -19,7 +19,7 @@ This is the source code for the paper "ME-UNet: a Memory Efficient Model for 3D 
 * --interpolation: the interpolation method used to resize the 3D images. 0, 1, 2, 3, 4 and 5 represent Nearest-neighbor interpolation, Bilinear interpolation, Quadratic interpolation, Cubic interpolation, Quartic (bi-quadratic) interpolation and Quintic interpolation respectively.
 * --target_folder: the saved path.
 
-2. Running main.py to train and test the model.
+2. Run main.py to train and test the model.
 
    ```
    Python main.py --data_folder './clean_data' --save_path './models/MEUNet_model.pth' --lr 0.01 --batch_size 1 --max_epoch 100 --patient 30 --feature_list [16, 32, 64, 128, 256]
