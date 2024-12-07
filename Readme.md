@@ -1,4 +1,4 @@
-# ME-UNet: an Memory Efficient Model for 3D Coronary Artery Segmentation
+# ME-UNet: a Memory Efficient Model for 3D Coronary Artery Segmentation
 
 ## Introduction
 
